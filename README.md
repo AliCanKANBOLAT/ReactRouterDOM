@@ -27,8 +27,8 @@ npm run dev
 -[x] Displaying 10 Products on Homepage
 -[x] Creating Product Layout Structure -> Categories and Links to the Last 5 Products
 -[x] Opening Detail Page when Clicking on Products
--[ ] Creating Login Structure (localStorage)
--[ ] Ability to Logout if User is Logged in (localStorage)
+-[x] Creating Login Structure (localStorage)
+-[x] Ability to Logout if User is Logged in (localStorage)
 -[ ] Ability for Logged-in User to Add Products to Favorites (localStorage)
 -[ ] Ability for Logged-in User to Navigate to Favorites Page // (PrivateRoute..)
 
