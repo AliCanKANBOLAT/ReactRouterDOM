@@ -1,26 +1,21 @@
-import { useState, useEffect } from 'react'
-import { Link } from 'react-router-dom'
+import { useEffect, useState } from "react"
+import {useParams} from "react-router-dom"
+import ProductCard from "./ProductCard"
 export default function Category () {
-    const [categories, setCategories] = useState([])
-
-    useEffect(() =>{
-        fetch('https://fakestoreapi.com/products/categories')
-            .then(res=>res.json())
-            .then(res=>setCategories(res))
-    },[])
+    const {categoryName} = useParams()
+    // console.log(categoryName)
+    const [categoryProducts, setCategoryProducts] = useState([])
+    useEffect(() => {
+        fetch(`https://fakestoreapi.com/products/category/${categoryName}`)
+            .then(res => res.json())
+            .then(res => setCategoryProducts(res))
+            .catch(res => console.error(res))
+        }, [categoryProducts])
     return(
         <>
-        <h1>Category</h1>
-        <div className="list-group">
-            {
-                categories.map((category,index) =>
-                <Link
-                 key={index} 
-                 to={`/products/category/${category}`}
-                 className="list-group-item list-group-item-action"
-                 >{category.toUpperCase()}
-                 </Link> )
-            }
+        <h1>Category: {categoryName.toUpperCase()}</h1>
+        <div className="row row-cols-sm-3 row-cols-md-4">
+        {categoryProducts.map(item => <ProductCard key={item.id}item={item} />)}
         </div>
         </>
     )

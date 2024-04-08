@@ -1,4 +1,4 @@
-import Category from "./Category";
+import Categories from "./Categories";
 import { Outlet } from "react-router-dom"
 
 export default function ProductsLayOut () {
@@ -9,7 +9,7 @@ export default function ProductsLayOut () {
                 <Outlet />
             </div>
             <div className="col-sm-4">
-                <Category />
+                <Categories />
             </div>
         </div>
         </>
