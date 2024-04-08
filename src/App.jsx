@@ -10,7 +10,7 @@ function App() {
   const [user, setUser] = useState(null)
 
   const handleLogin = () => {
-    const user = { id: 1, name:"lorem"}
+    const user = { id: 1, name:"Bora Ferit"}
     setUser(user)
     localStorage.setItem("user", JSON.stringify(user))
     navigate('/')
@@ -28,7 +28,7 @@ function App() {
       <div className="container">
         <div className="row">
           <div className="col-sm-12"></div>
-          <SiteRoutes handleLogin={handleLogin}/>
+          <SiteRoutes handleLogin={handleLogin} user={user}/>
         </div>
       </div>
     </>
