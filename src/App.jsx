@@ -1,5 +1,7 @@
 import { useState } from 'react'
 import Navbar from './components/Navbar'
+import SiteRoutes from './components/SiteRouts'
+
 
 
 function App() {
@@ -11,7 +13,7 @@ function App() {
       <div className="container">
         <div className="row">
           <div className="col-sm-12"></div>
-          <h1>App</h1>
+          <SiteRoutes />
         </div>
       </div>
     </>
