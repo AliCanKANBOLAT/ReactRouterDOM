@@ -19,12 +19,12 @@ npm run dev
 ````
 
 ......................................................................................
--[ ] React-Router-Dom and Bootstrap Setup
--[ ] Creating Navbar
--[ ] Creating Page Structure
--[ ] Accessing Pages via React Router Dom
+-[x] React-Router-Dom and Bootstrap Setup
+-[x] Creating Navbar
+-[x] Creating Page Structure
+-[x] Accessing Pages via React Router Dom
 -[ ] Creating Products Section
--[ ] Displaying 10 Products on Homepage
+-[x] Displaying 10 Products on Homepage
 -[ ] Creating Product Layout Structure -> Categories and Links to the Last 5 Products
 -[ ] Opening Detail Page when Clicking on Products
 -[ ] Creating Login Structure (localStorage)
