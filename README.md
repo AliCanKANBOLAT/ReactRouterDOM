@@ -29,7 +29,7 @@ npm run dev
 -[x] Opening Detail Page when Clicking on Products
 -[x] Creating Login Structure (localStorage)
 -[x] Ability to Logout if User is Logged in (localStorage)
--[ ] Ability for Logged-in User to Add Products to Favorites (localStorage)
--[ ] Ability for Logged-in User to Navigate to Favorites Page // (PrivateRoute..)
+-[x] Ability for Logged-in User to Add Products to Favorites (localStorage)
+-[x] Ability for Logged-in User to Navigate to Favorites Page // (PrivateRoute..)
 
 .......................................................................................
