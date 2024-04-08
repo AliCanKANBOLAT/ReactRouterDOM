@@ -11,7 +11,7 @@ export default function Category () {
     return(
         <>
         <h1>Category</h1>
-        <div class="list-group">
+        <div className="list-group">
             {
                 categories.map((category,index) =>
                 <Link
