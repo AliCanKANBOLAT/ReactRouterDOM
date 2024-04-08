@@ -23,10 +23,10 @@ npm run dev
 -[x] Creating Navbar
 -[x] Creating Page Structure
 -[x] Accessing Pages via React Router Dom
--[ ] Creating Products Section
+-[x] Creating Products Section
 -[x] Displaying 10 Products on Homepage
--[ ] Creating Product Layout Structure -> Categories and Links to the Last 5 Products
--[ ] Opening Detail Page when Clicking on Products
+-[x] Creating Product Layout Structure -> Categories and Links to the Last 5 Products
+-[x] Opening Detail Page when Clicking on Products
 -[ ] Creating Login Structure (localStorage)
 -[ ] Ability to Logout if User is Logged in (localStorage)
 -[ ] Ability for Logged-in User to Add Products to Favorites (localStorage)
