@@ -1,5 +1,5 @@
 import { useEffect, useState} from "react"
-import ProductCard from "../products/ProductCard"
+import { ProductCard } from "../products"
 
 export default function Home () {
     const [last10Products, setLast10Products] = useState([])
