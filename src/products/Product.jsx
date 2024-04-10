@@ -28,8 +28,8 @@ export default function Product({ user }) {
       <img src={product?.image ?? null} alt="" className="w-100 img-thumbnail" />
       <p>{product?.description ?? null}</p>
       <h2>{product?.price ?? null} $</h2>
-      {/* Favorilere ekle butonu */}
-      <button onClick={handleFavorite}>Add to Favorites</button>
+      {/* Card a ekle butonu */}
+      <button onClick={handleFavorite}>Add to Card</button>
     </>
   );
 }

@@ -8,7 +8,7 @@ export default function Products({ user }) {
     fetch("https://fakestoreapi.com/products?limit=20")
       .then((res) => res.json())
       .then((data) => {
-        // Ürünlerin tam bilgilerini alarak last10Products state'ine kaydet
+        // Ürünlerin tam bilgilerini alarak last20Products state'ine kaydet
         setLast20Products(data.map((product) => ({
           id: product.id,
           title: product.title,

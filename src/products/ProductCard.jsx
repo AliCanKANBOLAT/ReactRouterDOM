@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 
 export default function ProductCard({ item, user }) {
-  const productUrl = `/products/product/${item.id}`;
+  const productUrl = `/products/product/${item.id} `;
 
   function handleClick(product) {
     let localFavs = JSON.parse(localStorage.getItem("favs")) ?? [];
