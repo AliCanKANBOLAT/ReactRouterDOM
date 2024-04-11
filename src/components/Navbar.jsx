@@ -6,7 +6,7 @@ export default function Navbar({ user, handleLogout }) {
     <>
       <nav className="navbar navbar-expand-lg bg-body-tertiary mb-3" data-bs-theme="dark">
         <div className="container">
-          <Link className="navbar-brand" to="/">R-Store</Link>
+          <Link className="navbar-brand" to="/">Bora-Ferit-Store</Link>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
