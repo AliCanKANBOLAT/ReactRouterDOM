@@ -20,7 +20,8 @@ export default function Navbar({ user, handleLogout }) {
                 user ? (
                   <>
                     <NavLink className="nav-link" to="/fav">Card</NavLink>
-                    <button className="btn btn-link nav-link" onClick={handleLogout}>Logout ({user.username})</button>
+                    <button className="btn btn-link nav-link"
+                     onClick={handleLogout}>Logout ({user.username})</button>
                   </>
                 ) : (
                   <NavLink className="nav-link" to="/login">Login</NavLink>

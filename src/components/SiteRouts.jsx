@@ -7,7 +7,6 @@ import { Category, Product, ProductLayOut, Products } from '../products';
 import Login from '../Pages/Login';
 import Fav from '../Pages/Fav';
 import PrivateRoute from '../PrivateRoute';
-
 export default function SiteRoutes({handleLogin, user}) {
     return(
         <Routes>

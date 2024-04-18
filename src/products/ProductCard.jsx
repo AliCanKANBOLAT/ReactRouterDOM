@@ -32,7 +32,7 @@ export default function ProductCard({ item, user }) {
           <p className="card-text">{item.description.substring(0, 20)}...</p>
           <p className="lead">{item.price}</p>
 
-          {/* Favori butonu */}
+          {/* Card a ekleme butonu */}
           {user && (
             <button className="btn btn-primary" onClick={() => handleClick(item)}>
               Add to Card
